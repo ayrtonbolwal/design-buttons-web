@@ -1,0 +1,43 @@
+.btn-bw-square-text {
+    font-size: 1rem;
+    height: 40pt;
+    border-radius: 0;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .btn-bw-square-text {
+    padding: 0 14pt;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .btn-bw-square-text{
+    padding: 0 14pt;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .btn-bw-square-text {
+    padding: 0 16pt;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .btn-bw-square-text {
+    padding: 0 20pt;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .btn-bw-square-text{
+    padding: 0 20pt;
+  }
+}

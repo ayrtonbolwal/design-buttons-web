@@ -1,0 +1,53 @@
+@import url(./btn-rounded-text.css);
+@import url(./btn-square-text.css);
+@import url(./btn-pill-text.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  padding: 4rem;
+  font-family: "Inter", sans-serif;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 4rem;
+  column-gap: 2rem;
+}
+
+header{
+    grid-row: 1;
+    grid-column: 1/5;
+}
+.button-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+/* ----------- BTN BLUE -----------*/
+
+.btn-fill {
+    background-color: #2697ff;
+    color: white;
+    border: none;
+  }
+  .btn-fill:hover {
+    background-color: #1f78cc;
+  }
+  
+  /* ----------- BTN WHITE -----------*/
+  
+  .btn-empty {
+    background-color: white;
+    color: black;
+    border: solid black 2px;
+  }
+  .btn-empty:hover {
+    background-color: #f1f1f1;
+  }
